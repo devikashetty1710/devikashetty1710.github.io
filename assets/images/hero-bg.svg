@@ -1,0 +1,37 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="centerLight" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+      <circle cx="40" cy="40" r="1.5" fill="rgba(129, 140, 248, 0.2)"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(6, 182, 212, 0.15)"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1440" height="900" fill="url(#bgGlow)"/>
+  <rect width="1440" height="900" fill="url(#centerLight)"/>
+  
+  <!-- Grid Layer -->
+  <rect width="1440" height="900" fill="url(#grid)"/>
+  <rect width="1440" height="900" fill="url(#dots)"/>
+
+  <!-- Glowing Geometric Accents -->
+  <circle cx="200" cy="150" r="300" fill="#6366f1" opacity="0.06" filter="blur(60px)"/>
+  <circle cx="1200" cy="300" r="250" fill="#06b6d4" opacity="0.08" filter="blur(50px)"/>
+  <circle cx="800" cy="700" r="350" fill="#a855f7" opacity="0.05" filter="blur(70px)"/>
+
+  <!-- Abstract Vector Curves -->
+  <path d="M-100 600 Q 300 300 700 650 T 1500 400" stroke="url(#bgGlow)" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M-50 450 Q 400 700 900 350 T 1550 600" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1.5" stroke-dasharray="8 8" fill="none"/>
+</svg>

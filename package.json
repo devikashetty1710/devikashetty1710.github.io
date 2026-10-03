@@ -1,0 +1,21 @@
+{
+  "name": "devika-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Devika Shetty - Full-Stack Developer & AI Systems Engineer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx servor . index.html 8080 --reload",
+    "start": "npx servor . index.html 8080"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "javascript",
+    "css3",
+    "html5",
+    "fullstack",
+    "ai"
+  ],
+  "author": "Devika Shetty",
+  "license": "MIT"
+}
